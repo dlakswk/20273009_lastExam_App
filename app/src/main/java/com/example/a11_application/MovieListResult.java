@@ -1,7 +1,7 @@
 package com.example.a11_application;
 
 import java.util.ArrayList;
-import android.graphics.movie;
+import android.graphics.Movie;
 
 
 public class MovieListResult {
@@ -10,4 +10,5 @@ public class MovieListResult {
 
     ArrayList<Movie> dailyBoxOfficeList = new ArrayList<Movie>();
 }
+
 
