@@ -27,12 +27,15 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
     }
     @Override
     public int getItemCount(){
+
         return items.size();
     }
     public void addItem(Movie item){
+
         items.add(item);
     }
     public void setItems(ArrayList<Movie> items){
+
         this.items = items;
     }
     public Movie getItem(int position){
@@ -62,6 +65,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
         }
     }
 }
+
 
 
 
